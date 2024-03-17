@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>关乎自身的七件大事（2024.3.18）</title>
+      <link href="/2024/03/17/guan-hu-zi-shen-de-qi-jian-da-shi-2024.3.18/"/>
+      <url>/2024/03/17/guan-hu-zi-shen-de-qi-jian-da-shi-2024.3.18/</url>
+      
+        <content type="html"><![CDATA[<ul><li>时间真的很快，一转眼现在就已经24年3月17号了，记得上次写博客还是23年，不知道应该怎么办，以前感觉什么都无所谓，什么都没有想过，现在确实是有压力了。    </li><li>自己也27岁了，早已不是小孩子了，可我每天依然是和朋友玩游戏，并没有思考过一些人生问题，家里也是一直催我结婚，已经一直觉得结婚离我很遥远，可是现在一想到了自己27岁了，结婚确实没有那么遥远了，那我应该怎么办呢？</li></ul><ol><li>不玩游戏（以后一定不能玩游戏了，特别是lol，简直是浪费了我很多年的青春）</li><li>不看短视频（抖音、快手、微信小视频、皮皮虾、小红书、qq小视频等等，我的时间基本上也是用在这些短视频身上）</li><li>运动与减肥（我虽然不是很胖，但身体素质非常差劲。上次和zsb说了以后每天下午都要爬楼梯，确实也应该锻炼一下身体，每天都没有运动过，也不出去走走逛逛，每天就是宅在家里，那么自己的身体素质越来越差也是理所当然，锻炼也是迫在眉睫）</li><li>学习一些新的技能（很久没有学习新的技能了，一个人一直没有变化，那就是走向愚蠢，而且学习要系统性的学习，比如看个短视频学习，基本上是学了之后就忘了）</li><li>阅读（说了很多次了，每次都没能坚持下去，这个问题真的比较严重，我自己也下载了几万本书籍，可是看的时候却无从下手，应该看什么书？这些都不知道，应该制定一个阅读计划）</li><li>贫穷（自古贫穷都是一大问题，陶渊明不为五斗米折腰，可是谁能成为下一个陶渊明？特别是如今的社会，广告铺天盖地，直播带货席卷而来，无时无刻不在刺激你进行消费。这个问题应该怎么解决？）</li><li>婚姻（这也是一个非常重要的问题，这个问题也比较重要）</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人成长 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2024.3.18 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo搭建教程</title>
       <link href="/2024/03/17/da-jian-hexo-zhu-ti-bo-ke/"/>
       <url>/2024/03/17/da-jian-hexo-zhu-ti-bo-ke/</url>
       
-        <content type="html"><![CDATA[<h1 id="搭建博客教程"><a href="#搭建博客教程" class="headerlink" title="搭建博客教程"></a><center><font face='仿宋'>搭建博客教程</font></center></h1><h2 id="东月"><a href="#东月" class="headerlink" title="东月"></a><center><font face="楷体">东月</font></center></h2><h4 id="一-运行环境"><a href="#一-运行环境" class="headerlink" title="一.运行环境"></a>一.运行环境</h4><h6 id="1-git"><a href="#1-git" class="headerlink" title="1.git"></a>1.git</h6><p>  安装地址：<a href="https://git-scm.com/download">https://git-scm.com/download</a></p><h6 id="2-node-js"><a href="#2-node-js" class="headerlink" title="2.node.js"></a>2.node.js</h6><p>  安装地址：<a href="https://nodejs.cn/">https://nodejs.cn/</a></p><h6 id="3-首先安装这两个软件。"><a href="#3-首先安装这两个软件。" class="headerlink" title="3.首先安装这两个软件。"></a>3.首先安装这两个软件。</h6><h6 id="4-然后对node-js进行环境配置"><a href="#4-然后对node-js进行环境配置" class="headerlink" title="4.然后对node.js进行环境配置"></a>4.然后对node.js进行环境配置</h6><h6 id="5-教程参考此地址：https-blog-csdn-net-qq-40593308-article-details-110559838"><a href="#5-教程参考此地址：https-blog-csdn-net-qq-40593308-article-details-110559838" class="headerlink" title="5.教程参考此地址：https://blog.csdn.net/qq_40593308/article/details/110559838"></a>5.教程参考此地址：<a href="https://blog.csdn.net/qq_40593308/article/details/110559838">https://blog.csdn.net/qq_40593308/article/details/110559838</a></h6><h4 id="二-hexo安装本地博客"><a href="#二-hexo安装本地博客" class="headerlink" title="二.hexo安装本地博客"></a>二.hexo安装本地博客</h4><h6 id="1-创建一个文件夹，用于放博客"><a href="#1-创建一个文件夹，用于放博客" class="headerlink" title="1.创建一个文件夹，用于放博客"></a>1.创建一个文件夹，用于放博客</h6><h6 id="2-npm速度很慢，安装cnpm"><a href="#2-npm速度很慢，安装cnpm" class="headerlink" title="2.npm速度很慢，安装cnpm"></a>2.npm速度很慢，安装cnpm</h6><h6 id="3-安装淘宝的cnpm管理器（下面俩个，选一个就行）"><a href="#3-安装淘宝的cnpm管理器（下面俩个，选一个就行）" class="headerlink" title="3.安装淘宝的cnpm管理器（下面俩个，选一个就行）"></a>3.安装淘宝的cnpm管理器（下面俩个，选一个就行）</h6><pre><code>npm install -g cnpm --registry=https://registry.npm.taobao.org  npm install -g cnpm --registry=https://registry.npmmirror.com</code></pre><p>  安装之后所以npm指令都可以用cnpm用，速度更快</p><h6 id="4-安装hexo"><a href="#4-安装hexo" class="headerlink" title="4.安装hexo"></a>4.安装hexo</h6><p>  <code>cnpm install -g hexo-cli</code></p><h6 id="5-打开刚刚创建的文件夹”我的博客”（用于存放博客的目录）"><a href="#5-打开刚刚创建的文件夹”我的博客”（用于存放博客的目录）" class="headerlink" title="5.打开刚刚创建的文件夹”我的博客”（用于存放博客的目录）"></a>5.打开刚刚创建的文件夹”我的博客”（用于存放博客的目录）</h6><p>  比如我：D:\我的博客</p><h6 id="6-下载hexo文件"><a href="#6-下载hexo文件" class="headerlink" title="6.下载hexo文件"></a>6.下载hexo文件</h6><p>  运行：<code>hexo init blog</code><br>  然后<code>ctrl+c</code>取消下载<br>  再把刚刚取消的：<code>hexo init blog</code> 显示的链接复制进去<br>  hexo init 里面的链接为：<code>https:githun.com/hexojs/hexo-starter.git</code><br>  运行：<code>git clone https:githun.com/hexojs/hexo-starter.git</code><br>  然后就得到一个hexo-starter文件夹，修改名字为：blog<br>  把blog放到D:\我的博客，就是D:\我的博客\blog</p><h6 id="7-打开blog，右键鼠标选择git-bash打开"><a href="#7-打开blog，右键鼠标选择git-bash打开" class="headerlink" title="7.打开blog，右键鼠标选择git bash打开"></a>7.打开blog，右键鼠标选择git bash打开</h6><p>  输入： <code>cnpm install //安装依赖</code></p><h6 id="8-本地博客就搭建完成"><a href="#8-本地博客就搭建完成" class="headerlink" title="8.本地博客就搭建完成"></a>8.本地博客就搭建完成</h6><p>  验证：<code>hexo s</code><br>  然后进入网页打开：  <code>http://localhost:4000/ </code> </p><p>  验证网页之后就：<code>ctrl+c</code> 取消网页验证</p><h4 id="三-使用GitHub的免费服务器"><a href="#三-使用GitHub的免费服务器" class="headerlink" title="三.使用GitHub的免费服务器"></a>三.使用GitHub的免费服务器</h4><h6 id="1-注册github账号（https-github-com-）"><a href="#1-注册github账号（https-github-com-）" class="headerlink" title="1.注册github账号（https://github.com/）"></a>1.注册github账号（<a href="https://github.com/%EF%BC%89">https://github.com/）</a></h6><p>  并创建一个仓库（默认选项创建就行）–&gt;仓库名格式要求：你的GitHub用户名.github.io</p><h6 id="2-初始化Git的用户名和邮箱（加–global是为所有git项目设置，不加则是在当前目录的git项目设置）"><a href="#2-初始化Git的用户名和邮箱（加–global是为所有git项目设置，不加则是在当前目录的git项目设置）" class="headerlink" title="2.初始化Git的用户名和邮箱（加–global是为所有git项目设置，不加则是在当前目录的git项目设置）"></a>2.初始化Git的用户名和邮箱（加–global是为所有git项目设置，不加则是在当前目录的git项目设置）</h6><p>  注意：这里的yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱。这样GitHub才能知道你是不是对应它的账户。<br>          (1)初始化用户名–运行命令：<code>git config --global user.name  &quot;yourname&quot;</code>（注意user.name&#x2F;email和英文双引号”之间要有一个空格）<br>          (2)初始化邮箱–运行命令：<code>git config --global user.email  &quot;youremail&quot;</code><br>          (3)确认设置用户名和邮箱成功：执行以下命令<br>            用户名：<code>git config --global user.name</code><br>            邮箱：<code>git config --global user.email</code><br>            显示用户名和邮箱就是对的。</p><h5 id="3-ssh连接：只有连接成才能上传代码"><a href="#3-ssh连接：只有连接成才能上传代码" class="headerlink" title="3.ssh连接：只有连接成才能上传代码"></a>3.ssh连接：只有连接成才能上传代码</h5><h6 id="1-下载github部署插件：运行命令：cnpm-install-hexo-deployer-git-save"><a href="#1-下载github部署插件：运行命令：cnpm-install-hexo-deployer-git-save" class="headerlink" title="(1)下载github部署插件：运行命令：cnpm install hexo-deployer-git --save"></a>(1)下载github部署插件：运行命令：<code>cnpm install hexo-deployer-git --save</code></h6><p>  本地生成获取ssh密钥</p><h6 id="2-生成密钥：运行命令：ssh-keygen-t-rsa-C-youremail-（这里改为自己的邮箱），可能要一路回车"><a href="#2-生成密钥：运行命令：ssh-keygen-t-rsa-C-youremail-（这里改为自己的邮箱），可能要一路回车" class="headerlink" title="(2)生成密钥：运行命令：ssh-keygen -t rsa -C &quot;youremail&quot;（这里改为自己的邮箱），可能要一路回车"></a>(2)生成密钥：运行命令：<code>ssh-keygen -t rsa -C &quot;youremail&quot;</code>（这里改为自己的邮箱），可能要一路回车</h6><h6 id="3-获取密钥：在Git-Bash运行命令cat-ssh-id-rsa-pub，然后复制这行命令运行的结果"><a href="#3-获取密钥：在Git-Bash运行命令cat-ssh-id-rsa-pub，然后复制这行命令运行的结果" class="headerlink" title="(3)获取密钥：在Git Bash运行命令cat ~/.ssh/id_rsa.pub，然后复制这行命令运行的结果"></a>(3)获取密钥：在Git Bash运行命令<code>cat ~/.ssh/id_rsa.pub</code>，然后复制这行命令运行的结果</h6><h6 id="4-github创建ssh密钥"><a href="#4-github创建ssh密钥" class="headerlink" title="(4)github创建ssh密钥"></a>(4)github创建ssh密钥</h6><h6 id="5-打开github，在右上角的头像下面点击settings，再点击SSH-and-GPG-keys，新建一个SSH，名字随便取一个都可以，把你的id-rsa-pub里面的信息复制进去，点击create-创建即可完成创建"><a href="#5-打开github，在右上角的头像下面点击settings，再点击SSH-and-GPG-keys，新建一个SSH，名字随便取一个都可以，把你的id-rsa-pub里面的信息复制进去，点击create-创建即可完成创建" class="headerlink" title="(5)打开github，在右上角的头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便取一个都可以，把你的id_rsa.pub里面的信息复制进去，点击create&#x2F;创建即可完成创建"></a>(5)打开github，在右上角的头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便取一个都可以，把你的id_rsa.pub里面的信息复制进去，点击create&#x2F;创建即可完成创建</h6><h6 id="6-验证ssh连接是否成功：ssh-T-git-github-com，出现用户名，即代表访问成功"><a href="#6-验证ssh连接是否成功：ssh-T-git-github-com，出现用户名，即代表访问成功" class="headerlink" title="(6)验证ssh连接是否成功：ssh -T git@github.com，出现用户名，即代表访问成功"></a>(6)验证ssh连接是否成功：<code>ssh -T git@github.com</code>，出现用户名，即代表访问成功</h6><h5 id="4-生产的博客项目根目录下的-config-yml中的url，url是Pages生成的网站网址，可以第六步再配置，deploy下的repository-要配置成自己的仓库地址（记得文件要保存，如果编辑器窗口顶部的文件名前面有个星号-，那就说明话没有保存）"><a href="#4-生产的博客项目根目录下的-config-yml中的url，url是Pages生成的网站网址，可以第六步再配置，deploy下的repository-要配置成自己的仓库地址（记得文件要保存，如果编辑器窗口顶部的文件名前面有个星号-，那就说明话没有保存）" class="headerlink" title="4.生产的博客项目根目录下的_config.yml中的url，url是Pages生成的网站网址，可以第六步再配置，deploy下的repository 要配置成自己的仓库地址（记得文件要保存，如果编辑器窗口顶部的文件名前面有个星号*，那就说明话没有保存）"></a>4.生产的博客项目根目录下的_config.yml中的url，url是Pages生成的网站网址，可以第六步再配置，deploy下的repository 要配置成自己的仓库地址（记得文件要保存，如果编辑器窗口顶部的文件名前面有个星号*，那就说明话没有保存）</h5><blockquote><p>deploy:<br>  type: ‘git’<br>  repository: <a href="mailto:&#103;&#105;&#116;&#x40;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;">&#103;&#105;&#116;&#x40;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;</a>:dongyueya&#x2F;dongyueya.github.io.git<br>  branch: master</p></blockquote><h5 id="5-使用hexo的常用命令来生成网页："><a href="#5-使用hexo的常用命令来生成网页：" class="headerlink" title="5.使用hexo的常用命令来生成网页："></a>5.使用hexo的常用命令来生成网页：</h5><h6 id="1-清除之前生成的项目–hexo-clean（可以清除之前项目的一些问题）"><a href="#1-清除之前生成的项目–hexo-clean（可以清除之前项目的一些问题）" class="headerlink" title="(1)清除之前生成的项目–hexo clean（可以清除之前项目的一些问题）"></a>(1)清除之前生成的项目–<code>hexo clean</code>（可以清除之前项目的一些问题）</h6><h6 id="2-在本地生成项目–hexo-g（缩写）-hexo-generate"><a href="#2-在本地生成项目–hexo-g（缩写）-hexo-generate" class="headerlink" title="(2)在本地生成项目–hexo g（缩写）&#x2F;hexo generate"></a>(2)在本地生成项目–<code>hexo g</code>（缩写）&#x2F;hexo generate</h6><h6 id="3-把项目部署到GitHub上–hexo-d（缩写）-hexo-deploy"><a href="#3-把项目部署到GitHub上–hexo-d（缩写）-hexo-deploy" class="headerlink" title="(3)把项目部署到GitHub上–hexo d（缩写）&#x2F;hexo deploy"></a>(3)把项目部署到GitHub上–<code>hexo d</code>（缩写）&#x2F;hexo deploy</h6><h5 id="6-切换主题等等"><a href="#6-切换主题等等" class="headerlink" title="6.  切换主题等等"></a>6.  切换主题等等</h5><h6 id="ps：推荐教程地址：https-mubu-com-doc-5OeZGO2XKgh"><a href="#ps：推荐教程地址：https-mubu-com-doc-5OeZGO2XKgh" class="headerlink" title="ps：推荐教程地址：https://mubu.com/doc/5OeZGO2XKgh"></a>ps：推荐教程地址：<a href="https://mubu.com/doc/5OeZGO2XKgh">https://mubu.com/doc/5OeZGO2XKgh</a></h6><p>我基本上也是从这里复制的。  </p><h6 id="还是不懂就结合B站视频"><a href="#还是不懂就结合B站视频" class="headerlink" title="还是不懂就结合B站视频:"></a>还是不懂就结合B站视频:</h6><ol><li>本地搭建(Av677325024,P1)</li><li>1.Hexo+Github：个人博客的搭建(Av622384198,P1)</li><li>1.【全网最详细Markdown入门使用教程】40分钟教会你用免费的vscode(Av881709425,P1)</li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="搭建博客教程"><a href="#搭建博客教程" class="headerlink" title="搭建博客教程"></a><center><font face='仿宋'>搭建博客教程</font></center></h1><h2 id="东月"><a href="#东月" class="headerlink" title="东月"></a><center><font face="楷体">东月</font></center></h2><p>一. 运行环境<br>  1.git<br>  安装地址：<a href="https://git-scm.com/download">https://git-scm.com/download</a><br>  2.node.js<br>  安装地址：<a href="https://nodejs.cn/">https://nodejs.cn/</a><br>  3.首先安装这两个软件。<br>  4.然后对node.js进行环境配置<br>  5.教程参考此地址：<a href="https://blog.csdn.net/qq_40593308/article/details/110559838">https://blog.csdn.net/qq_40593308/article/details/110559838</a></p><p>二. hexo安装本地博客<br>  1.创建一个文件夹，用于放博客<br>  2.npm速度很慢，安装cnpm<br>  3.安装淘宝的cnpm管理器（下面俩个，选一个就行）<br>   <code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code><br>  <code>npm install -g cnpm --registry=https://registry.npmmirror.com</code><br>  安装之后所以npm指令都可以用cnpm用，速度更快<br>  4.安装hexo<br>  <code>cnpm install -g hexo-cli</code><br>  5.打开刚刚创建的文件夹”我的博客”（用于存放博客的目录）<br>  比如我：D:\我的博客<br>  6.下载hexo文件<br>  运行：<code>hexo init blog</code><br>  然后<code>ctrl+c</code>取消下载<br>  再把刚刚取消的：<code>hexo init blog</code> 显示的链接复制进去<br>  hexo init 里面的链接为：<code>https:githun.com/hexojs/hexo-starter.git</code><br>  运行：<code>git clone https:githun.com/hexojs/hexo-starter.git</code><br>  然后就得到一个hexo-starter文件夹，修改名字为：blog<br>  把blog放到D:\我的博客，就是D:\我的博客\blog<br>  7.打开blog，右键鼠标选择git bash打开<br>  输入： <code>cnpm install //安装依赖</code><br>  8.本地博客就搭建完成<br>  验证：<code>hexo s</code><br>  然后进入网页打开：  <code>http://localhost:4000/ </code> </p><p>  验证网页之后就：<code>ctrl+c</code> 取消网页验证<br>三.使用GitHub的免费服务器<br>  1.注册github账号（<a href="https://github.com/%EF%BC%89">https://github.com/）</a><br>  并创建一个仓库（默认选项创建就行）–&gt;仓库名格式要求：你的GitHub用户名.github.io<br>  2.初始化Git的用户名和邮箱（加–global是为所有git项目设置，不加则是在当前目录的git项目设置）<br>  注意：这里的yourname输入你的GitHub用户名，youremail输入你GitHub的邮箱。这样GitHub才能知道你是不是对应它的账户。<br>          (1)初始化用户名–运行命令：<code>git config --global user.name  &quot;yourname&quot;</code>（注意user.name&#x2F;email和英文双引号”之间要有一个空格）<br>          (2)初始化邮箱–运行命令：<code>git config --global user.email  &quot;youremail&quot;</code><br>          (3)确认设置用户名和邮箱成功：执行以下命令<br>            用户名：<code>git config --global user.name</code><br>            邮箱：<code>git config --global user.email</code><br>            显示用户名和邮箱就是对的。<br>  3.ssh连接：只有连接成才能上传代码<br>  (1)下载github部署插件：运行命令：<code>cnpm install hexo-deployer-git --save</code><br>  本地生成获取ssh密钥<br>  (2)生成密钥：运行命令：<code>ssh-keygen -t rsa -C &quot;youremail&quot;</code>（这里改为自己的邮箱），可能要一路回车<br>  (3)获取密钥：在Git Bash运行命令<code>cat ~/.ssh/id_rsa.pub</code>，然后复制这行命令运行的结果<br>  (4)github创建ssh密钥<br>  (5)打开github，在右上角的头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便取一个都可以，把你的id_rsa.pub里面的信息复制进去，点击create&#x2F;创建即可完成创建<br>  (6)验证ssh连接是否成功：<code>ssh -T git@github.com</code>，出现用户名，即代表访问成功<br>  4.生产的博客项目根目录下的_config.yml中的url，url是Pages生成的网站网址，可以第六步再配置，deploy下的repository 要配置成自己的仓库地址（记得文件要保存，如果编辑器窗口顶部的文件名前面有个星号*，那就说明话没有保存）</p><blockquote><p>deploy:<br>  type: ‘git’<br>  repository: <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#105;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;</a>:dongyueya&#x2F;dongyueya.github.io.git<br>  branch: master</p></blockquote><p>  5.使用hexo的常用命令来生成网页：<br>  (1)清除之前生成的项目–<code>hexo clean</code>（可以清除之前项目的一些问题）<br>  (2)在本地生成项目–<code>hexo g</code>（缩写）&#x2F;hexo generate<br>  (3)把项目部署到GitHub上–<code>hexo d</code>（缩写）&#x2F;hexo deploy<br>  6.  切换主题等等<br>ps：推荐教程地址：<a href="https://mubu.com/doc/5OeZGO2XKgh">https://mubu.com/doc/5OeZGO2XKgh</a><br>我基本上也是从这里复制的，还是不懂就结合一下B站视频:</p><ol><li>本地搭建(Av677325024,P1)</li><li>1.Hexo+Github：个人博客的搭建(Av622384198,P1)</li><li>1.【全网最详细Markdown入门使用教程】40分钟教会你用免费的vscode(Av881709425,P1)</li></ol>]]></content>
       
       
       <categories>
@@ -21,106 +46,6 @@
         <tags>
             
             <tag> 2024.3.17 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.5.15（日记）</title>
-      <link href="/2024/03/17/2023.5.15-ri-ji/"/>
-      <url>/2024/03/17/2023.5.15-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>这几天没有写日记<span id="more"></span></p><h3 id="写写想法"><a href="#写写想法" class="headerlink" title="写写想法"></a>写写想法</h3><p>5.7日后就一直没有写日记了，不知道写什么，也不想写日记了，感觉写来写去就那些，也没有什么用，我写了日记，对于自己的事情，也不反省也不改，写了和没有写有什么区别呢？最近又比较迷茫，感受好无奈，人生又到了什么阶段呢？好迷茫好无奈。我究竟应该做什么呢？该怎么做呢？人这一辈子就是为了混口饭吃吗？有时候真的觉得自己好废，什么都做不好，什么都不愿意做，一天就觉得累，可是我又哪里累呢？玩手机玩累了？还是怎么回事？我好无奈！人为什么不能像机器一样呢？只是工作而不思考，只要有思考就会有烦恼。可是我又讨厌一眼就能望到头的日子，讨厌每天都是重复一样的日子，这样的日子我也觉得没意思，或许真的不思考就不会有烦恼了！还有最近几天都在看小说，看那种修真类型的小说，感觉小说也能让自己暂时逃避现实，让自己无暇去思考任何事情，只是埋头看小说，打发时间，可是我知道，看这种小说只会越来越浪费我的时间，我的时间能这样浪费多久呢？我也想过看一些正版的书籍或者小说，可是为什么我看不进去呢？我好恨自己呀！我痛恨这样的生活，可是我又没有办法改变，反而只能这样沉迷其中，不然我就觉得无趣，一切都无趣无聊。我想看很多书，知道很多东西，可是我却没办法看进去任何一本有用的书籍，我究竟哪里出了问题呢？到底是哪里出了问题呀？我到底应该从哪里开始做呀？<br>对了，最近又下载了抖音，又在看短视频了，并且还在玩王者荣耀，这个游戏是因为有个女生要我和她一起玩，所以我才玩的，这个游戏我可玩可不玩，不会沉迷其中，这个我很放心，但是短视频我无法控制自己，真是一个可怕的东西。而且看网络小说也不能控制自己，这也是很可怕的事情。我希望能够看正版书籍，可是正版书籍枯燥无趣，让我无法看进去，没有办法沉浸其中，这也是很失败的事情，我觉得应该不管看什么书籍都可以沉浸其中这才是一个正常的人应该有的，而不是该看的书籍看不进去，没用的书籍却沉迷其中，这真是让我很失望，很失望！</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>究竟什么是修身，我为什么不修身，我究竟该从哪里开始修身？或许应该找个方法了？我一直觉得曾国藩的方法不错，可是实施起来却如此困难！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.5.15 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.5.7（日记）</title>
-      <link href="/2024/03/17/2023.5.7-ri-ji/"/>
-      <url>/2024/03/17/2023.5.7-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>这几天没有写日记<span id="more"></span></p><h3 id="伟大的想法以及决定"><a href="#伟大的想法以及决定" class="headerlink" title="伟大的想法以及决定"></a>伟大的想法以及决定</h3><p>从5.3号之后，到今天一直没有写日记，更别说练字了，自从4.27之后到今天，就一直没有练字了。真是懒惰至极，我怎么又变成这样了？现在身体也慢慢变得好了，人却越来越懒了，这是我没有想到的事情，一个人怎么能如此堕落呢？我究竟应该怎么办？生活的动力又是什么？怎么才能不忘初心？这对我来说真是一个难题，如若能够攻克这个难题，我想我将无往不利。三分钟热度让我对一切从满兴趣，却又在极短的时间内丧失兴趣。可是我又能做什么呢？我一点办法没有，有的只是无奈与悲愤。我渴望读很多书，渴望知道很多事情，渴望变得有智慧，可是我却连书都看不进去？人哪？究竟应该怎么样才能变成一个有担当、有学识、有智慧的人呢？或许应该像曾国藩一样修身，然后有自己的规矩从而遵守规矩，可是谁又能如他一样呢？难，难呀，真是太难！！！</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.5.7 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.9.13（日记）</title>
-      <link href="/2024/03/17/2023.9.13-ri-ji/"/>
-      <url>/2024/03/17/2023.9.13-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>一转眼几个月都没有写日记了<span id="more"></span></p><h3 id="写写想法"><a href="#写写想法" class="headerlink" title="写写想法"></a>写写想法</h3><p>没有写日记的时间过的好快，怎么一转眼都已经到了九月，马上国庆节也快到了，真是没想到我竟然有四个月没有写日记了，那么这几个月我究竟在干什么呢？答案是：颓废，是颓废了，我这段时间什么都没有做就到了九月中旬，马上这一年也快结束了，我真是恨我自己，怎么变成这样了？我究竟从什么时候开始变成这样的？这样的日子我究竟要度过多久？我什么时候才能振作起来？我好废物，好没用。真是觉得很恶心。</p><p>现在也不知道写什么，就这样吧，等会儿还要去上班，就这样吧，看看晚上还能不能想起自己的罪恶，想起现在写的日记，让自己振作一点，别再颓废了。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.9.13 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.9.20（日记）</title>
-      <link href="/2024/03/17/2023.9.20-ri-ji/"/>
-      <url>/2024/03/17/2023.9.20-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>离上次写日记又过去了一周<span id="more"></span></p><h3 id="这周我的情况"><a href="#这周我的情况" class="headerlink" title="这周我的情况"></a>这周我的情况</h3><p>这周我旁听了几天，但是这几天基本上就是混日子，然后就开始打电话，从前天下午开始打电话，打到今天，感觉不怎么样。毕竟是电销，任何电销都是让我觉得恶心，但是又没有什么办法，除了电销还有什么工作呢？我不知道，也是非常迷茫，我究竟要做什么，电销也只是为了暂时度过一下日子，可是以后我究竟要做什么呢？靠什么才能养活自己呢？我不知道，也非常迷茫。陶渊明可以不为五斗米折腰，可是我却为了混口饭吃，选择讨厌的工作。</p><p>谈一谈我为什么选择这个工作：</p><ol><li>时间比较充足（这个工作早上9：00，到下午17：30，这段时间中午12-14点休息，国庆之后应该会变成12:30-14点）</li><li>离住的地方比较近（骑15分钟共享电动车，走几分钟就到了，算下来差不多从出门到公司只需要半小时就可以到公司了）</li><li>可以在家做饭（工作时间比较短，所以可以自己做饭，自从知道外卖很脏之后就不想再点外卖，当然也是因为我很穷）</li></ol><p>除此之外，我并不知道我为什么会选择这个工作，电销是令我非常讨厌的工作，电销从国外流传到我国，也才仅仅20几年，却发展的如此迅速，以至于哪里都是销售，哪里都是电销。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.9.20 </tag>
             
         </tags>
       
@@ -154,256 +79,6 @@
     
     
     <entry>
-      <title>2023.4.29（日记）</title>
-      <link href="/2024/03/17/2023.4.29-ri-ji/"/>
-      <url>/2024/03/17/2023.4.29-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>伟大的想法以及决定<span id="more"></span></p><h3 id="伟大的想法以及决定"><a href="#伟大的想法以及决定" class="headerlink" title="伟大的想法以及决定"></a>伟大的想法以及决定</h3><p>今天7.30就醒了，由于今天放假，我就又睡了，睡了一会儿，睡不着了，然后就起床洗漱，然后就不知道去哪里了，休息的我竟然不知道做什么事情，真是一个奇怪的事情，然后我就玩到了中午去楼下吃完饭后，又回来了，正愁不知道做什么的时候，我朋友给我发信息，让我玩游戏，然后我就打开了lol，开始了游戏之旅。或许我爱玩游戏，正是因为我内心极度的空旷，没有任何事情可以做的，然后不得不通过玩游戏来打发时间，这就是我这么爱玩游戏的原因吧。然后下午18点的时候，我去吃了一碗面条，然后去融创茂逛了圈，热闹是很热闹，但是我仿佛格格不入，我不知道去干什么，除了吃的就是玩的，我不知道玩什么，我也不想吃东西，忽然发现所有的热闹都与我无关。<br>一个人没有目标，没有任何想做的事情，那是可悲的，而我却就是这样一个可悲的人，以前沉迷游戏来麻痹自己，但是一旦离开游戏，我将是一个与世界隔离的人。世界上所有的精彩都与我无关，但是在家的我，却又想感受一下热闹的感觉，可是去了才发现，这好像与我并无关系。热闹与我无关，欢乐也与我无关，究竟什么才是与我有关呢？或许就是活着吧，如果仅仅是活着，那我与猪猡又有和区别，仅仅是为了活着？不过普通人的一生或许就该这样，每天上班、下班，上班、下班。反反复复，日复一日，年复一年。从青丝到白发，从年轻到年老。<br>或许这就是一个人的一辈子吧！那这是我的一辈子吗？是吗？</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>练字、看书</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.29 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.5.3（日记）</title>
-      <link href="/2024/03/17/2023.5.3-ri-ji/"/>
-      <url>/2024/03/17/2023.5.3-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>这几天没有写日记<span id="more"></span></p><h3 id="伟大的想法以及决定"><a href="#伟大的想法以及决定" class="headerlink" title="伟大的想法以及决定"></a>伟大的想法以及决定</h3><p>从4月29之后，一直到今天都没有写日记，也没有练字，没有看书。那么我究竟在做什么呢？30号那天去给我姐家做了一个大扫除，然后晚上睡觉的时候，就全身不舒服，我怀疑是感冒发烧了，然后吃了一点感冒药，然后当天晚上才睡着，不然都睡不着，浑身没劲还酸痛，第二天也是浑身难受，然后又吃了一些药，就躺着休息，一直躺了几天，知道昨天我才发现我可能是得了新冠，因为我以前没有得过新冠，只是听说非常难受，当时难受的时候我以为是感冒的原因，结果后面发现胃口很差，由于不舒服，我都是在家里点的外卖，然后我点了一个乡村基，然后吃了发现味道不对劲，以为是做的不好吃，然后就没有怎么在意，知道第二天又点了一个猪脚饭发现也是很难吃，我才发现或许是我的问题，好像是味觉消失了，最后我不还信去买了两桶酸菜泡面，一吃果然是自己的味觉有问题，后面我就觉得应该是得了新冠，不过到了今天身体已经没有什么难受的了，不过头还是有点晕，其他没有什么问题了，真是有点难受呀，一直以来我没有得过新冠还以为可以避免，结果到了五一假期的时候来了一个新冠，真是难受呀，希望明天能够正常恢复吧，因为明天就要上班了。这个特别是前2天非常难受，不过也还好，没有在上班的时候得新冠，不然那肯定更烦，好了，事情大概也就这样吧，其他暂时也没有什么想写的了。希望我后面好好工作，然后多学点东西，还有就是最近没有练字、看书是我很悔恨的事情，当然我今天发现我吃东西好像有点味觉了，这真是值得开心的时刻，没有味觉我吃什么都吃不下去，果然有的东西只有缺了才发现原来这么重要！我一个不挑食的人都吃不下去东西，那味觉到底是多么重要的东西呢？或许不言而喻吧！</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>近日被病痛折磨的有点难受，现在都在咳嗽，脑袋有有点晕乎，咳嗽的时候会有痰，那究竟什么是最重要的东西呢？健康？你健康的时候并不会感觉到健康给你带来的好处，可是一生病，就发现原来小小的健康是多么重要的东西！父母那一代人的想法也与我们不一样，父母打电话最多的是问我，吃的怎么样？有衣服穿没有？找对象没有？什么时候结婚？父母关心的事情无非就是这几样。可我们呢？除了这些以外却还在忧虑到底怎么才会快乐？快乐才是我们最主要的事情，现在的社会哪里没有吃的？哪里没有住的？哪里没有穿的？无非就是有钱的吃的好，没钱的吃的差点；有钱的住的好点，没钱的住的差点；有钱的穿的好点，没钱的穿的差点。可是精神的快乐怎么解决呢？暂时没有办法解决，那就只能沉迷于短视频、游戏等等，我希望不是这其中的一员，可是对于一个从小就身处其中的我来说又何尝不沉溺其中呢？就好像你身处于亚里士多德的时代说地球不是宇宙中心，你认为人们会相信你吗？人们只会拿你当做傻子或者当做疯子对待！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.5.3 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.27（日记）</title>
-      <link href="/2024/03/17/2023.4.27-ri-ji/"/>
-      <url>/2024/03/17/2023.4.27-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>伟大的想法以及决定<span id="more"></span></p><h3 id="伟大的想法以及决定"><a href="#伟大的想法以及决定" class="headerlink" title="伟大的想法以及决定"></a>伟大的想法以及决定</h3><p>今天很早就醒了，然后又睡一会儿，结果7.30才醒，然后赶忙下去扫了一个小黄车，然后坐轻轨，差点迟到了，不过还是没有迟到，不过确实需要设置一个时间标准了，最近一直看曾国藩，不止一次提到了不能睡懒觉，我也不能睡懒觉，这样确实不能做好事情，不管是什么原因，都不能睡懒觉，我觉得有必要定一个时间，在规定的时间之内必须起床，我想了一下早上5点钟吧，第一个脑子就是5点，然后最多5.30必须起床，洗漱收拾，然后看书这些也非常重要，不看书感觉就是混了一天，不能这样下去了，人这一辈子，真的没有多少时间呀。<br>然后就是今天下午培训完后，我们这边的新人有三个人明天不去了，是培训的时候，话术通关没有过，我感觉是那个通关老师的问题，我看了一下，（sib）有五个人在他那里通关，然后最开始第一次就只有一个通关过了，四个没有过，我也看了一下其他的通关老师，感觉都还好呀，没有那么严格的，算了，说了也没什么用。我通过了一次就过了，感受我们的新组长还是挺好的。然后还有一个女生昨天加了我微信，然后今天通关了一次，我晚上问她的时候，她说还有一次不通过了，就是在五个其中的一个，她就直接退出了那个群。在这一瞬间，有点兔死狐悲的感觉，我忽然觉得工作一点意义没有，难道仅仅只是为了能够养活自己吗？有的人可以做到一点人情味都没有吗？还是说需要你把他哄好，才会对你做到没那么严格？招个人还这么严格？新人本来就没有经验，很多都是没有做过类似的工作，现在培训了四天，结果你不让别人通过，别人就这样失去了这个工作的机会。我做不出这样的事情，我以前做自媒体的时候，帮公司招人，从来都是只有你诚心想做，我都不会在意你的技能，不会的东西我都可以教你们，只有态度够好，我觉得都可以呀。现在有的人却不这样想，只要能给他带来利益，就连人品不行他也一样能够容忍？<br>陶渊明不为五斗米折腰，但是现在的我们能这样吗？或许不能，现在的我们已经不会种庄稼了，并且我们大多数人也不会做生意，还有什么能够养活自己呢？或许只能寄人篱下，忍气吞声，这样过一辈子吧！忽然觉得人这一辈子好像并没有什么值得期待的，欢乐也只是一时而已，买个手机？去某某地方玩了几天？这只是能给你带来短暂的快乐。快乐之后带给你的就是无尽的空虚，当然你也可以选择刷短视频、游戏等等来麻痹自己的神经，从而浑浑噩噩的度过下班时间，上班时间都将会忙忙碌碌的度过。<br>果然只要一刷短视频，你什么都会忘记，哪怕刚刚心情非常沉重，结果一个短视频之后，你将什么都不会记得。<br>从今天开始，我卸载一切视频软件，一切娱乐软件。或许这很难，但是我从今天开始，就将如此！一个人的毅力怎么能如此只差？一个人怎么能如此只废物呢？每天练字、看书都不能做到？我还能做什么？</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>练字、看书</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.27 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.24（日记）</title>
-      <link href="/2024/03/17/2023.4.24-ri-ji/"/>
-      <url>/2024/03/17/2023.4.24-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>今天写什么呢<span id="more"></span></p><h3 id="培训"><a href="#培训" class="headerlink" title="培训"></a>培训</h3><p>昨天晚上定的今天早上6.30、6.39的闹钟，结果还是6.39起床了，简单洗漱之后，就出门做公交到轻轨站了，结果差点迟到了，还比较幸运，正好8.30到了，然后就培训，基本上就讲了一些关于公司的情况，介绍了一下东西。然后快到中午的时候，发放餐票。食堂有2楼和3楼，我去的2楼吃的，人还是很多的，排了一会儿队才打到饭，饭菜还行2荤2素，不过都无所谓，我又不挑食，我对吃的也就这样吧，没有非常喜欢吃的，也没有非常讨厌吃的。</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>今天回来之后，一直在看B站，看的一个up主：张猫猫历险记，是一个全国旅游的博主，现在都23.58了，然后练了一篇字帖，看了一会儿，但是没看曾国藩的书，这本书我看得时候要专心的看，看其他的书籍，就算随便过一下而已，现在都忘记书里的内容了。其他现在就没有什么可讲的了，就这样吧，准备睡觉了！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.24 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.25（日记）</title>
-      <link href="/2024/03/17/2023.4.25-ri-ji/"/>
-      <url>/2024/03/17/2023.4.25-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>今天写什么呢<span id="more"></span></p><h3 id="培训"><a href="#培训" class="headerlink" title="培训"></a>培训</h3><p>昨天晚上定的今天早上6.39的闹钟，但是早上的时候感觉起不来，然后6.50的时候才起床，洗漱之后大概7.10出门，然后骚了一个小黄车去的轻轨站，坐了快一个小时的车才到，上班的地方真的是远呀。又是培训了一天，中午又是在食堂吃的，感觉这个地方上班唯一的好处就是有食堂，比较省钱。然后下午回来之后，去了西西弗书店转了一圈，也没有什么想看的书籍，然后就回去吃了一个面条，就回来了。回来了之后，首先先休息，没有看书，也没有阅读，就是想看视频，看了一会儿B站，然后打了几把欢乐斗地主，现在才想起写个日记。感觉没有什么可说的，每天就是上班下班，没有什么其他值得写的事情。不过有时间感觉可以去洪崖洞逛逛，因为离洪崖洞太近了，下班了就可以去转，不过等晚上转完回去肯定很晚了。</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>现在9.13，还没有开始练字，我感觉我练字真的不行，不过还是要每天都练一篇，俗话说的好：日积月累。我今年就尝试一下，一定要把字练的好一些，不然写的太丑了，真是人生一大失败的事情。过会儿再写练字情况，现在去耍一会儿</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.25 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.26（日记）</title>
-      <link href="/2024/03/17/2023.4.26-ri-ji/"/>
-      <url>/2024/03/17/2023.4.26-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>今天写什么呢<span id="more"></span></p><h3 id="培训"><a href="#培训" class="headerlink" title="培训"></a>培训</h3><p>今天早上快7点了才起床，6.50才起床，真是不知道怎么搞得，昨天还没有练字，躺在床上就睡着了，然后凌晨两点多醒了，就直接睡觉了，没有练字。然后今天晚上补起来的，现在才练完字。然后今天一天也是培训，上午的是考试，题都没有答对，只考了57分，然后下午培训完了又考试，这次考了76分，总算是通过了考试，明天还要话术通关，感觉又是有点难得东西，到现在还没有怎么看那个话术，感受有点难哟。不过都无所谓，反正还是尽力吧。不过感觉我这几天的实际情况，我没有努力学习呀，感受我都废了，没有努力学习，培训的时候也没有认真听。哎！<br>要认真呀，cp，你在干什么？混了一天又一天，还能混多久？人这一辈子算活70岁，一共也就只有25550天，已经度过了9490天了，只剩下16060天了，而且如果工作到70岁，那真是太辛苦了，就算50岁吧，50岁一共18250天，减去9490天，只剩下8760天可以努力了，你还不努力，你在干什么呢？cp，清醒一点，加油呀！！！</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>今天练字两篇字，把昨天的也补齐了。其他没有！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.26 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.23（日记）</title>
-      <link href="/2024/03/17/2023.4.23-ri-ji/"/>
-      <url>/2024/03/17/2023.4.23-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>今天朋友约我去打羽毛球<span id="more"></span></p><h3 id="打羽毛球"><a href="#打羽毛球" class="headerlink" title="打羽毛球"></a>打羽毛球</h3><p>今天早上的时候，由于昨天直接玩了一个通宵，所以今天早上7点多的时候准备睡觉，然后（cyj）给我打微信电话，问我在干嘛，说今天去玩不，然后我就问了去哪里玩，（cyj）说想一下，然后过了一会儿，差不多九点的时候给我打电话，我迷迷糊糊的，（cyj）问我会不会打羽毛球，我说会，然后就说去打羽毛球嘛。我说好的，然后就没有睡觉了，直接起床洗漱，然后收拾了一下，就去大坪找他们，由于打羽毛球的地方没什么吃饭的，他们在群里说先去石油路找个地方吃饭，然后我没有看微信信息，就到了大坪才看到，说先到石油路那个龙湖时代天街吃饭，然后再去奥林匹克体育中心打羽毛球，还好大坪离石油路只有一个轻轨站，我又坐回去了，结果我竟然是第一个到的，后面等他们到齐乐之后差不多快12点了，就去龙湖天街吃饭，吃的自助餐，感觉还行吧。吃完之后，看了一下时间，13点30了，就打的车去奥林匹克，因为我们羽毛球场地是订的14点到16点的，再做轻轨就赶不上了，打车过去之后，由于我们是订两个小时的羽毛球，到了之后就着急的租羽毛球拍，后面一想实在太亏了，租两副羽毛球拍，2个小时就要100多块还要交600押金，幸亏没有把拍子弄坏，不然押金都没了，后面想想真的有点亏，感觉去店里都可以买一副拍了，虽然买不到好的拍子，但是我们这些渣渣用还是足够了。然后打完羽毛球就去买茶颜悦色，我感觉也就那样，不过女生好像还是挺喜欢喝的。买完就去吃了一点东西，就各奔东西，回去了。</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>今天回来之后，什么都没有做，回来之后什么也没有做，现在都23.23了。字也没有练，也没有阅读，我现在马上去练字，然后阅读，就立刻睡觉，明天还要起早上班。23.57练字练完了，不过刚开始的时候，手很酸笔都拿不稳，后面发现拇指、食指、无名指三个指头用力抓笔，就可以把字写好。而且写的字非常有力，比我平时写的时候有力些，后面就这样写字。今天阅读就停了一天，睡觉了。</p><h3 id="写字姿势"><a href="#写字姿势" class="headerlink" title="写字姿势"></a>写字姿势</h3><p>拇指、食指、无名指三个指头用力抓笔，就可以把字写好。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.23 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.22（日记）</title>
-      <link href="/2024/03/17/2023.4.22-ri-ji/"/>
-      <url>/2024/03/17/2023.4.22-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>今天随便写写<span id="more"></span></p><h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>昨天不是十点面试了一个工作么，然后昨天给说已经通过了，但是今天下午两点半还有一个面试，想了一下还是去面试一下吧，下午两点就去了，两点半去面试之后，晚上给我说问我能不能周一去上班，我委婉拒绝了。因为我昨天面试的工作感觉要比这个好些，然后就拒绝了。<br>拒接之后就随便去熙街上了一会儿网，以前非常喜欢在熙街的挚首网咖上网，因为觉得那里吃的很好吃，电脑配置也非常好。但是今天去感觉没什么意思了，或许是我已经不喜欢玩游戏了吧，今天去也是怀旧，我是一个比较恋旧的人。当然我也知道过去的事情都已经过去了，当下才是真正需要把握的。</p><h3 id="修身"><a href="#修身" class="headerlink" title="修身"></a>修身</h3><p>今天回来之后，什么都没有做，看了一会儿博客，感觉挺有意思的。然后想写博客的时候，突然感觉好困，就睡了一个多小时，醒来的时候差不多晚上九点了，也不想练字，不想阅读。又看了一会儿博客，差不多凌晨1点了，就打开了qq频道，进去划水，结果找了一个语音频道，和他们聊天，聊到了现在，现在已经是4.23号，马上5点了。而我还没有看书，还没有练字的。真是废物的一天。现在先去练字，过会儿在回来继续写。回来了，现在5.25，写了一篇字，但是感觉还是写的很难看，不知道什么时候写的才会好一点，难道是因为我写的少了吗？但是感觉写多了坚持不下去，写半个小时应该差不多了吧，可能只是时间的问题，我现在只需要坚持就行，坚持下去！加油。还有就是阅读，继续读曾国藩吧，现在5.27等我回来。回来了现在6.33，看了一个小时，但是就看了《挺经》的卷二，不过这样也好，时间长一点才会记住，不然段时间看了很多章节，但是一点印象都没有，那也不行呀。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.22 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.21（日记）</title>
-      <link href="/2024/03/17/2023.4.21-ri-ji/"/>
-      <url>/2024/03/17/2023.4.21-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>今天一共写四个事情<span id="more"></span></p><h3 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h3><p>今天早上十点去面试，目的地是重庆轨道一号线小什字站，而我现在住的地方在大学城这边，过去确实挺远的，导航显示都要一个半小时的时间，早晨起床洗漱之后，差不多八点二十左右出发，到了九点四十左右，然后等到十点钟开始面试，参与面试的加上我一共五人，公司福利待遇好像并没有我想象的那么好，前半年只买五险，后面才买一金，面试官说要做一年之后工资有8000-10000，但是前期工资可能不是很高，其实这个我都觉得无所谓，主要是找个好一点工作能够长期做，这才是我的目的，然后今天下午17.57分给我发微信说我通过面试了，4.24号去培训，培训之后才开始上班。<br>我觉得就这个工作吧，也不看其他工作了，找工作确实很累，找个好工作更加困难。  </p><h3 id="朋友找我玩"><a href="#朋友找我玩" class="headerlink" title="朋友找我玩"></a>朋友找我玩</h3><p>回去之后，下午（gz）找我玩，说去四川美术学院美术馆去玩，然后我就等他过来，他过来也是一个半小时，不过川美离我还是挺近的，比较方便，等他来了之后，就去逛了一下美术馆，拍了一些照片，然后聊起了游戏，现在他也不想玩游戏饿了，gz和我一样是一个沉迷游戏的少年，读书的时候他也是一直沉迷游戏，说读书的时候都没怎么谈恋爱，简直和我一样一样，一个在个地方玩游戏，一个在另一边玩游戏，现在讲起来都后悔了，当时随便谈恋爱的，现在毕业工作之后找个对象都找不好。最后他请我吃饭，当时我想吃个便宜一点的，就和他去吃乡村基，我点了欢乐儿童套餐，哈哈哈，吃完就回去了。  </p><h3 id="玩游戏"><a href="#玩游戏" class="headerlink" title="玩游戏"></a>玩游戏</h3><p>回去之后就睡觉，然后凌晨十二点左右，（zsb）给我发信息说要玩我的游戏账号，然后我就起来和他们一起玩了三把lol。现在玩了之后感觉也不怎么好玩，真不知道以前为什么这么沉迷于这个游戏，从初中开始一直沉迷游戏，知道前一个月还是沉迷于游戏之中，真是浪费光阴，可恨又可气。</p><h3 id="今日修身"><a href="#今日修身" class="headerlink" title="今日修身"></a>今日修身</h3><p>今天又没有练字看书，什么都没有做，真是不争气呀！现在写这个的时候已经是4.22号凌晨4.30了，昨天的光阴已经过去，今天又是否要浪费一天光阴呢？不可能再浪费了吧，今天要练字、看书。加油！！！现在5.20了，刚刚练了一篇字，不过我感觉练字写的很难看，我是打印的田字格纸，然后对照着写的，感觉写的和字帖的字不像，是否写多了就像了？我不确定，反正现在就先练着吧。好了，我去看一会儿书，然后再来写阅读情况。现在6.55了，刚刚读了《挺经》卷一 内圣。把卷一读完了，一共4点，1.自己独处，自己应该怎么做。2.君子独处与小人独处两种情况，带来的影响。3.圣贤的境界大概四种。一是二程诚恳谦恭，二是子思的遗训诚恳到了极致感动神灵，三是安于贫穷的境遇，遵照自己的道德标准。四是陶渊明、白居易、苏轼等欣赏大自然的美景。4.曾国藩修身的十二课。这个就很多了，都写成一本书了，建议直接看《曾国藩人生修炼日课》。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.21 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2023.4.20（日记）</title>
-      <link href="/2024/03/17/2023.4.20-ri-ji/"/>
-      <url>/2024/03/17/2023.4.20-ri-ji/</url>
-      
-        <content type="html"><![CDATA[<p>第一篇在博客写的日记，真是有点激动呀，其实我也断断续续的写了一些日记<span id="more"></span>，也没有用手写，其实我是很羡慕那些手写日记的人，我最开始还是用手写几天的日记，后面不知道弄到哪里去了，就没有手写日记饿了，不过我认为最主要的原因是太懒了，我刚刚在电脑里看了一下我目前最早的一个日记的日期是2021年11月20号，当然写的也是很简单，可能也就几十个字吧。不过到今天为止也是断断续续的写日记，不能坚持下去，真是懒得不行了。</p><p>我记得吴宓日记的开始好像是：“天下之事，不难于始，而难于常，所以毅力为可贵也。”后面就说日记是小事情，但是也很难坚持写，吴宓讲他自己写日记也是五年了，没有一年能够写的完毕。然后就写了一段话给自己鼓励，让自己能写好。后面好像写了很多年，具体写了多长时间我也不清楚，不过在三联书店卖的很贵，一共十本卖600块左右，我是没钱买，所以我找的pdf格式，然后转格式之后传到kindle上去了，当然现在kindle上不知道还有没有，不过能说的是我没有怎么看吴宓日记，就看了开头的一句话，然后当时还一直读，背了下来，勉励自己。他的日记都没怎么看，反正现在都忘了。</p><p>每次写日记我都要提及时间，时间过得好快，什么都还没有做时间就已经过去了，我都26岁了，真是不敢相信，我怎么都26岁了呢？目前的状态，没有女朋友，没有存款，年纪还不小了。这么悲惨的现实，很难让我高兴呀。那就不提这个了，写点其他的事情吧。</p><p>对了，我想起了练字，说好了每天都要练一点的，刚刚看了一下字帖，上次练字还是17号，今天都20号了，又有几天没有写了，真是恨我自己太懒了。不过这几天都在研究博客的事情，也还好吧。哎呀，怎么能这么想呢，就是这样的想法多了，所以不能坚持下去，不能给自己找理由，没写就是没有写，绝对不能找理由。要练字，知道吗？要练字。字写的这么丑，还不快练字。写完日记就练字。</p><p>还有就是阅读，阅读真的很好，可是我现在面临的问题是不能静下心来看一本书，我现在下载了很多本书，我这本书看了一点，又想着另一本更重要，另一本刚看，又觉得还有一本更需要看。真是一个难办的事情，怎么阅读才对呢？我目前还不知道，哪本书对我才有用呢？我也不是很清楚，我觉得像曾国藩家训这类书就能启发人，但是偶尔又觉得没什么用，到底怎么看书呢？我应该怎么做呢？书上说曾国藩看书是一本没看完不会看第二本，我如果像他一样，那一年岂不是看不到几本书吗？我看书又慢、记性又差，总觉得要看目前对我有帮助的书籍，但是我却不知道哪些书对我有帮助。哎呀，算了，目前也没有什么好办法，反正看就行了，不管这本看几页，那本看几篇，反正再看就行。</p><p>然后昨天去找了（zsb）朋友玩，与其说是找他玩，不如说是去他那里坐了一会儿，还蹭了他一顿饭。他给我点的外卖，不过真的挺好吃的，我自己在屋里就舍不得点贵的外卖，去找他请我。真是有点不还意思了，后面有钱千万别忘了请他吃饭。</p><p>从让朋友请吃饭就可以看出，目前我过得有多惨，手里没钱了，感觉饭都吃不起了，如今的社会还有吃不起饭的吗？我如果能成为这样的人，那也是我自己的原因，不怪其他原因。</p><p>好吧，其他就不写了，我现在去练字去了。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 2023.4.20 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>【阅读】《曾国藩智慧精髓大合集》</title>
       <link href="/2024/03/17/yue-du-ceng-guo-fan-ting-jing-2023.4.20/"/>
       <url>/2024/03/17/yue-du-ceng-guo-fan-ting-jing-2023.4.20/</url>
@@ -423,19 +98,6 @@
             <tag> 2023.4.20 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2024/03/17/hello-world/"/>
-      <url>/2024/03/17/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
