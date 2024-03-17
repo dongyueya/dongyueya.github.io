@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo">
+    <meta name="keywords" content="分类: 日记, Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo</title>
+    <title>分类: 日记 | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -306,56 +306,9 @@
 
 </header>
 
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -392,642 +345,56 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#articles" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-                    <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
-                        <i class="fab fa-github-alt"></i>Github
-                    </a>
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
-</div>
-        </div>
     </div>
-
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
-
 
 <main class="content">
 
     
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+            </div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/%E6%97%A5%E8%AE%B0/" title="日记: 15">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F9EBEA;">日记
+                        <span class="tag-length">15</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E9%98%85%E8%AF%BB/" title="阅读: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">阅读
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+            </div>
         </div>
     </div>
 </div>
 
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
 
     
 
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.5.15%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="2023.5.15（日记）">
-                            
-                            <span class="card-title">2023.5.15（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这几天没有写日记
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-5-15/">
-                            <span class="chip bg-color">2023.5.15</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.5.7%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="2023.5.7（日记）">
-                            
-                            <span class="card-title">2023.5.7（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这几天没有写日记
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-5-7/">
-                            <span class="chip bg-color">2023.5.7</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.9.13%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="2023.9.13（日记）">
-                            
-                            <span class="card-title">2023.9.13（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                一转眼几个月都没有写日记了
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-9-13/">
-                            <span class="chip bg-color">2023.9.13</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.9.20%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="2023.9.20（日记）">
-                            
-                            <span class="card-title">2023.9.20（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                离上次写日记又过去了一周
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-9-20/">
-                            <span class="chip bg-color">2023.9.20</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/%E6%91%84%E5%BD%B1%E6%9E%84%E5%9B%BE%E5%AD%A6/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="摄影构图学">
-                            
-                            <span class="card-title">摄影构图学</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                摄影构图学第一章 艺术和摄影摄影，已经成熟了，而且已经成为了一门艺术。这一提法，不免会引起那些纯粹艺术家的反对，他们会认为这和实际不符，至少是言过其实了。他们说，摄影师机器的产物，而艺术和机器毫不相干的。
-第二章 形状第三章 线条第四章 明
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-4-29/">
-                            <span class="chip bg-color">2023.4.29</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.4.29%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="2023.4.29（日记）">
-                            
-                            <span class="card-title">2023.4.29（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                伟大的想法以及决定
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-4-29/">
-                            <span class="chip bg-color">2023.4.29</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.5.3%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="2023.5.3（日记）">
-                            
-                            <span class="card-title">2023.5.3（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                这几天没有写日记
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-5-3/">
-                            <span class="chip bg-color">2023.5.3</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.4.27%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="2023.4.27（日记）">
-                            
-                            <span class="card-title">2023.4.27（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                伟大的想法以及决定
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-4-27/">
-                            <span class="chip bg-color">2023.4.27</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.4.24%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="2023.4.24（日记）">
-                            
-                            <span class="card-title">2023.4.24（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                今天写什么呢
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-4-24/">
-                            <span class="chip bg-color">2023.4.24</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2024/03/17/2023.4.25%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="2023.4.25（日记）">
-                            
-                            <span class="card-title">2023.4.25（日记）</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                今天写什么呢
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/2023-4-25/">
-                            <span class="chip bg-color">2023.4.25</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
                     <a href="/2024/03/17/2023.4.26%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             
                             <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="2023.4.26（日记）">
@@ -1035,11 +402,11 @@
                             <span class="card-title">2023.4.26（日记）</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 今天写什么呢
+培训今天早上快7点了才起床，6.50才起床，真是不知道怎么搞得，昨天还没有练字，躺在床上就睡着了，然后凌晨两点多醒了，就直接睡觉了，没有练字。然后今天晚上补起来的，现在才练完字。然后今天一天也是培训，上午的是考试，题都没有答对
                             
                         </div>
                         <div class="publish-info">
@@ -1071,10 +438,10 @@
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
                     <a href="/2024/03/17/2023.4.23%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             
                             <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="2023.4.23（日记）">
@@ -1082,11 +449,11 @@
                             <span class="card-title">2023.4.23（日记）</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
                                 今天朋友约我去打羽毛球
+打羽毛球今天早上的时候，由于昨天直接玩了一个通宵，所以今天早上7点多的时候准备睡觉，然后（cyj）给我打微信电话，问我在干嘛，说今天去玩不，然后我就问了去哪里玩，（cyj）说想一下，然后过了一会儿，差不多九点的时候给
                             
                         </div>
                         <div class="publish-info">
@@ -1118,9 +485,148 @@
                 </div>
             </div>
             
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2024/03/17/2023.4.22%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="2023.4.22（日记）">
+                            
+                            <span class="card-title">2023.4.22（日记）</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                今天随便写写
+面试昨天不是十点面试了一个工作么，然后昨天给说已经通过了，但是今天下午两点半还有一个面试，想了一下还是去面试一下吧，下午两点就去了，两点半去面试之后，晚上给我说问我能不能周一去上班，我委婉拒绝了。因为我昨天面试的工作感觉要比这
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
+                                    日记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/2023-4-22/">
+                            <span class="chip bg-color">2023.4.22</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2024/03/17/2023.4.21%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="2023.4.21（日记）">
+                            
+                            <span class="card-title">2023.4.21（日记）</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                今天一共写四个事情
+面试今天早上十点去面试，目的地是重庆轨道一号线小什字站，而我现在住的地方在大学城这边，过去确实挺远的，导航显示都要一个半小时的时间，早晨起床洗漱之后，差不多八点二十左右出发，到了九点四十左右，然后等到十点钟开始面试，参与
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
+                                    日记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/2023-4-21/">
+                            <span class="chip bg-color">2023.4.21</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2024/03/17/2023.4.20%EF%BC%88%E6%97%A5%E8%AE%B0%EF%BC%89/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="2023.4.20（日记）">
+                            
+                            <span class="card-title">2023.4.20（日记）</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                第一篇在博客写的日记，真是有点激动呀，其实我也断断续续的写了一些日记，也没有用手写，其实我是很羡慕那些手写日记的人，我最开始还是用手写几天的日记，后面不知道弄到哪里去了，就没有手写日记饿了，不过我认为最主要的原因是太懒了，我刚刚在电脑里看了
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-17
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%97%A5%E8%AE%B0/" class="post-category">
+                                    日记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/2023-4-20/">
+                            <span class="chip bg-color">2023.4.20</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
     </article>
-
 </main>
 
 
@@ -1128,18 +634,18 @@
     <div class="row">
         <div class="col s6 m4 l4">
             
-            <a class="left btn-floating btn-large disabled">
+            <a href="/categories/%E6%97%A5%E8%AE%B0/"
+               class="left btn-floating btn-large waves-effect waves-light bg-color">
                 <i class="fas fa-angle-left"></i>
             </a>
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">1 / 2</div>
+            <div class="center-align b-text-gray">2 / 2</div>
         </div>
         <div class="col s6 m4 l4">
             
-            <a href="/page/2/"
-               class="right btn-floating btn-large waves-effect waves-light bg-color">
+            <a class="right btn-floating btn-large disabled">
                 <i class="fas fa-angle-right"></i>
             </a>
             
